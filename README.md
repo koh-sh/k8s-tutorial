@@ -1,4 +1,14 @@
-Kubernetesの主要なkubectlコマンドをご紹介します：
+# ローカルにnginxのサンプルを構築:
+
+```bash
+kubectl apply -f https://raw.githubusercontent.com/koh-sh/k8s-tutorial/refs/heads/main/nginx-deployment.yml
+```
+
+```bash
+curl localhost
+```
+
+# Kubernetesの主要なkubectlコマンド
 
 リソースの作成・更新・削除：
 ```bash
