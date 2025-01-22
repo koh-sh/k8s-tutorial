@@ -55,3 +55,9 @@ kubectl patch deployment <名前> -p '{"spec": {"replicas": 3}}'  # 部分的な
 ```
 
 これらのコマンドはよく使用される基本的なものです。必要に応じて`kubectl help`や`kubectl <コマンド> --help`で詳細なヘルプを確認できます。
+
+# ローカルのnginxサンプルを削除
+
+```bash
+kubectl delete -f https://raw.githubusercontent.com/koh-sh/k8s-tutorial/refs/heads/main/nginx-deployment.yml
+```
