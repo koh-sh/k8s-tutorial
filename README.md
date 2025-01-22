@@ -5,7 +5,7 @@ kubectl apply -f https://raw.githubusercontent.com/koh-sh/k8s-tutorial/refs/head
 ```
 
 ```bash
-curl localhost
+curl localhost:30080
 ```
 
 # Kubernetesの主要なkubectlコマンド
